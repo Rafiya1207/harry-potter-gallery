@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+.rounded-corner {
+  border-radius: 5px;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.front-card {
+  row-gap: 8px;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  padding: 1.2em;
+  background-color: hsl(259, 32%, 46%);
+}
+
+.img-container {
+  /* width: 250px; */
+  overflow: hidden;
+  width: 100%;
+  height: 80%;
+  box-shadow:
+    rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  /* box-shadow: rgba(77, 59, 114, 0.9) 0px 6px 12px -2px, rgba(77, 59, 114, 0.9) 0px 3px 7px -3px; */
+  /* border: 5px solid rgb(77, 59, 114); */
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.details {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+.house-badge {
+  padding: 5px;
+  width: 60px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: hsla(44, 99%, 53%, 70%);
+}
+
+.back-card {
+  justify-content: center;
+}
+
+.more-details {
+  color: #fff;
+}
+
+.more-details td {
+  font-size: 22px;
+  padding-bottom: 1em;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.right-align {
+  padding-left: 1.5em;
+}
